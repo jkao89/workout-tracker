@@ -1,0 +1,17 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "Workout tracker using Express MySQL module and AJAX calls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jimmy Kao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-session": "^1.11.3",
+    "mysql": "^2.8.0"
+  }
+}

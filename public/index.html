@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Workout Tracker </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div class="center-block">
+		<h3> Workout Tracker </h3>
+		<br>
+		<form method='post' id="newExercise">
+			<label for="name">Exercise Name:</label>
+			<input id="exerciseIn" type="text" name="name" size="18" required>
+			<label for="weight">Weight:</label>
+			<input id="weightIn" type="text" name="weight" size="3" maxlength="4" required>
+			<label for="reps">Repetitions:</label>
+			<input id="repsIn" type="text" name="reps" size="2" maxlength="3" required>
+			<label for="lbs">Unit:</label>
+			<select name="lbs">
+				<option value=1>lbs</option>
+				<option value=0>kgs</option>
+			</select>
+			<label for="date">Date (YYYY-MM-DD):</label>
+			<input id="dateIn" type="text" name="date" size="8" required> 
+			<input type="submit" name="submitExercise" value="Enter Exercise">
+		</form>
+		</div>
+		<br>
+
+		<div class="center-block">
+		<div id="tableSQL"></div>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="database.js"></script>
+	</body>
+</html>

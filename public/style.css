@@ -1,0 +1,55 @@
+body {
+	font-size: 16px;
+}
+
+table {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+thead {
+	font-weight: bold;
+}
+
+
+th, td {
+	border: 1px solid black;
+}
+
+label {
+	padding-left: 10px;
+}
+
+.center-block {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.ExerciseCol {
+	width: 35%;
+}
+
+.WeightCol {
+	width: 10%;
+}
+
+.RepsCol {
+	width: 8%;
+}
+
+.UnitCol {
+	width: 7%;
+}
+
+.DateCol {
+	width: 18%;
+}
+
+.buttoncells {
+	text-align: right;
+	width: 8%;
+	border: none;
+	margin: none;
+}
