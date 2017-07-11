@@ -48,11 +48,11 @@ $("#tableSQL").on("submit", ".edtbtns", function(event) {
 	updatedExercise.weight = $(parentRow.children[1].children[0]).text();
 	updatedExercise.reps = $(parentRow.children[2].children[0]).text();
 	updatedExercise.lbs = $(parentRow.children[3].children[0]).text();
-		if (updatedExercise.lbs == "lbs" || updatedExercise.lbs == "lb") 
+		if (updatedExercise.lbs == "lbs" || updatedExercise.lbs == "lb") {
 			updatedExercise.lbs = "1";
-		else 
+		} else 
 			updatedExercise.lbs = "0";
-		
+		}
 	updatedExercise.date = $(parentRow.children[4].children[0]).text();
 
 	// Check if any fields are empty
@@ -152,11 +152,11 @@ function getData() {
 		
 		// Append table to webpage
 		var tablePlaceholder = document.getElementById('tableSQL');
-		if (tablePlaceholder.hasChildNodes()) 
+		if (tablePlaceholder.hasChildNodes()) {
 			tablePlaceholder.replaceChild(table, tablePlaceholder.childNodes[0]);
-		else
+		} else {
 			tablePlaceholder.appendChild(table);
-
+		}
 });
 }
 
