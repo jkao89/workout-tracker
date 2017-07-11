@@ -5,9 +5,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var pool = mysql.createPool({
 	host : 'mysql.eecs.oregonstate.edu',
-	user : 'cs290_kaoj',
-	password : '4574',
-	database : 'cs290_kaoj',
+	user : '******',
+	password : '******',
+	database : '******',
 	dateStrings: 'date'
 }); 
 
